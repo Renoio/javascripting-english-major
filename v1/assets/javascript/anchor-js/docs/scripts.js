@@ -18,7 +18,7 @@ arrayMixed = ["a", 1, null, true, arrayOfNumbers, [4.5, 5.6]];
 $("#response").html(arrayOfStrings[4]);
 */
 
-let myBurritoObject;
+/*let myBurritoObject;
 myBurritoObject = {
   tortilla: "wheat",
   guacamole: true,
@@ -26,4 +26,24 @@ myBurritoObject = {
   habaneroSauceSquirts: 3
 };
 // and let's access a property
-$("#response").html(myBurritoObject["tortilla"]);
+$("#response").html(myBurritoObject["tortilla"]);*/
+
+/*let turtles, sortedTurtles, reversedTurtles, turtleNames;
+turtles = ["Leonardo", "Donatello", "Raphael", "Michelangelo"];
+sortedTurtles = turtles.sort();
+reversedTurtles = turtles.reverse();
+turtleNames = turtles.join(" ");
+turtles.push("Splinter");
+turtles.pop();*/
+
+/*
+let arrayOfStrings, arrayOfNumbers, arrayMixed;
+arrayOfStrings = ["a", "b", "c"];
+arrayOfNumbers = [1, 2, 3];
+arrayMixed = ["a", 1, null, true, arrayOfNumbers, [4.5, 5.6]];*/
+
+
+let dolphin, last;
+dolphin = ["fins", "nose"];
+last = dolphin-1;
+$("#response").html(last);
