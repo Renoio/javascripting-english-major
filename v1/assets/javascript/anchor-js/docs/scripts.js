@@ -48,4 +48,4 @@ dolphin = ["Nose", "Tail", "Fin", "Blowhole"];
 function last() {
   let last=dolphin[dolphin.length-1];
   alert("last part is"+last);
-}
+};
