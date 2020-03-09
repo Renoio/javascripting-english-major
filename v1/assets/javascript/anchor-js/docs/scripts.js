@@ -50,6 +50,6 @@ function last() {
   alert("last part is"+last);
 };*/
 
-{
-$("p").text("This is my project.");
-};
+$("button").click(function(){
+  $("p").text("Hello world!");
+});
