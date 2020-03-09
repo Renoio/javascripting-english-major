@@ -43,9 +43,13 @@ arrayOfNumbers = [1, 2, 3];
 arrayMixed = ["a", 1, null, true, arrayOfNumbers, [4.5, 5.6]];*/
 
 
-let dolphin;
+/*let dolphin;
 dolphin = ["Nose", "Tail", "Fin", "Blowhole"];
 function last() {
   let last=dolphin[dolphin.length-1];
   alert("last part is"+last);
-};
+};*/
+
+let p;
+p = ["Orange"];
+$("p").html("Some Food.");
