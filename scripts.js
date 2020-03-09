@@ -1,3 +1,1 @@
-$("button").click(function(){
-  $("p").text("Hello world!");
-});
+$("p").text("This is my project");
