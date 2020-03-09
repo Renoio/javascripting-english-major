@@ -2,6 +2,7 @@ p {
   color: #94b6d3;
   background-color: #36669f;
 }
+
 .second-paragraph {
   color: #b58900;
 }
@@ -15,6 +16,7 @@ img {
   width: 200px;
   height: 150px;
 }
+
 lead {
   color: #ddb66f;
   background-color: #dd816f;
