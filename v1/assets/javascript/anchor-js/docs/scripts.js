@@ -50,6 +50,4 @@ function last() {
   alert("last part is"+last);
 };*/
 
-let p;
-p = ["Orange"];
-$("p").html("Some Food.");
+$("p").html("This is my webpage.");
