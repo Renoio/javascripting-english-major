@@ -6,6 +6,7 @@ tileLayer = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/ligh
               maxZoom: 18
             }).addTo(map);
 map.setView([40.730833, -73.9975], 16);
+// Define the features array.
 let couldBeFeatures;
 $.getJSON("https://the-javascripting-english-major.org/v1/could-be.geo.json", function(data){
   // Define the Leaflet layer.
