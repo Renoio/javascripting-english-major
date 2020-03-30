@@ -32,9 +32,12 @@ $.getJSON("https://the-javascripting-english-major.org/v1/could-be.geo.json", fu
   // Now create a Leaflet feature group made up of markers for each
   // object in couldBeFeatures.
   couldBeLayer = L.featureGroup(couldBeFeatures.map(function(feature){
-    return L.marker(feature.latLng);
+    let popupContent, lines;
+    popupContent = "<h4>" + feature.name + "</h4>";
+    popupContent = popupContent + feature.name + " is mentioned on " + lines + ".<br />";
+    popupContent = popupContent + "Read about " + feature.name + " on <a href='"+ feature.wikipedia + "'>Wikipedia</a>.";
+    return L.marker(feature.latLng).bindPopup(popupContent);
     })
-  )
   // Add the layer to the map.
   couldBeLayer.addTo(map);
   // Redraw the map so that all the markers are visible.
