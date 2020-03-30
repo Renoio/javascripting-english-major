@@ -21,7 +21,7 @@ twitter:
   username: jsingenglishmaj
 logo: /apple-touch-icon.png
 host-full: http://the-javascripting-english-major.org
-exclude: 
+exclude:
  - screenshots
  - cheat_sheet
  - Gemfile
@@ -88,4 +88,4 @@ defaults:
   values:
     layout: help-page
 
-
+eqavf
