@@ -1,23 +1,44 @@
-p {
-  color: #94b6d3;
-  background-color: #36669f;
+body {
+  font-family: 'Ubuntu', sans-serif;
 }
 
-.second-paragraph {
+p {
+  font-family: 'Ubuntu', sans-serif;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#title {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#response {
+  font-family: 'Ubuntu', sans-serif;
+  color: #000000;
+  text-align: center;
+}
+/*.second-paragraph {
   color: #b58900;
 }
 #third-paragraph {
   color: #d33682;
 }
-img {
-  border-radius: 25px;
-  background: #73AD21;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
+p.lead {
+  color: #FFFFFF;
+  background-color: #000000;
 }
-
-#p1 {
-  color: #ddb66f;
-  background-color: #dd816f;
-}
+/*
