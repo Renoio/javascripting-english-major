@@ -46,15 +46,15 @@ let captreePark, captreeMarker, captree, CaptreeMarker;
 captreePark = L.latLng(40.6468, -73.2633);
 captreeMarker = L.marker(captreePark).bindPopup("Captree state park").addTo(firstMap);
 captree = L.latLng(40.6468, -73.2633);
-captreeMarker = L.marker(captree).bindPopup("This is Bobst Library.").addTo(firstMap);
+captreeMarker = L.marker(captree).bindPopup("Captree my favorite fishing location").addTo(firstMap);
 let circle;
-circle = L.circle(washingtonSquarePark, {radius: 100,
+circle = L.circle(captreePark, {radius: 100,
                                          color: "#859900",
                                          fillColor: "#859900",
                                          opacity: 0.9,
                                          fillOpacity: 0.20}
           ).addTo(firstMap);
-circle = L.circle(bobstLibrary,          {radius: 100,
+circle = L.circle(captree,          {radius: 100,
                                           color: "#859900",
                                           fillColor: "#859900",
                                           opacity: 0.9,
