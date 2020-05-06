@@ -45,7 +45,7 @@ thousandthPolyline = L.polyline(thousandth, {color: "#d33682"}
 let captreePark, captreeMarker, captree, CaptreeMarker;
 captreePark = L.latLng(40.6468, -73.2633);
 captreeMarker = L.marker(captreePark).bindPopup("Captree state park").addTo(firstMap);
-captree = L.latLng(40.729444, -73.997222);
+captree = L.latLng(40.6468, -73.2633);
 captreeMarker = L.marker(captree).bindPopup("This is Bobst Library.").addTo(firstMap);
 let circle;
 circle = L.circle(washingtonSquarePark, {radius: 100,
