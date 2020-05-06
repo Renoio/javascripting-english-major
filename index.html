@@ -120,19 +120,18 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGxlZ2EiLCJhIjoiY2lqbzk3aGVlMDB0bHRvbTVvN
       var myLayer = L.mapbox.featureLayer().addTo(map);
 
       var geoJson = [{
-  type: 'FeatureCollection',
-  "features": [
-    {
-      "type": "Feature",
+  type: 'Feature',
+  "features": {
+      type: 'Feature',
       "properties": {
         'stroke': '#c89191',
-        'stroke-width': 2,
-        'stroke-opacity': 1,
+        'stroke-width': '2',
+        'stroke-opacity': '1',
         'fill': '#804040',
-        'fill-opacity': 0.5
+        'fill-opacity': '0.5'
       },
       "geometry": {
-        "type": "Polygon",
+        type: 'Polygon',
         "coordinates": [
           [
             [
@@ -199,7 +198,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGxlZ2EiLCJhIjoiY2lqbzk3aGVlMDB0bHRvbTVvN
       }
     },
     {
-      "type": "Feature",
+      type: 'Feature',
       "properties": {
         'marker-color': '#ff8040',
         'marker-size': 'medium',
@@ -214,7 +213,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGxlZ2EiLCJhIjoiY2lqbzk3aGVlMDB0bHRvbTVvN
       }
     },
     {
-      "type": "Feature",
+      type: 'Feature',
       "properties": {
         'marker-color': '#ff8040',
         'marker-size': 'medium',
@@ -229,7 +228,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGxlZ2EiLCJhIjoiY2lqbzk3aGVlMDB0bHRvbTVvN
       }
     },
     {
-      "type": "Feature",
+      type: 'Feature',
       "properties": {
         'stroke': '#8080ff',
         'stroke-width': 2,
@@ -238,7 +237,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGxlZ2EiLCJhIjoiY2lqbzk3aGVlMDB0bHRvbTVvN
         'fill-opacity': 0.5
       },
       "geometry": {
-        "type": "Polygon",
+        type: 'Polygon',
         "coordinates": [
           [
             [
@@ -290,7 +289,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGxlZ2EiLCJhIjoiY2lqbzk3aGVlMDB0bHRvbTVvN
       }
     },
     {
-      "type": "Feature",
+      type: 'Feature',
       "properties": {
         'marker-color': '#ff8080',
         'marker-size': 'medium',
@@ -305,7 +304,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGxlZ2EiLCJhIjoiY2lqbzk3aGVlMDB0bHRvbTVvN
       }
     },
     {
-      "type": "Feature",
+      type: 'Feature',
       "properties": {
         'marker-color': '#ffa87d',
         'marker-size': 'medium',
@@ -320,7 +319,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGxlZ2EiLCJhIjoiY2lqbzk3aGVlMDB0bHRvbTVvN
       }
     },
     {
-      "type": "Feature",
+      type: 'Feature',
       "properties": {
         'marker-color': '#008000',
         'marker-size': 'medium',
@@ -335,7 +334,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGxlZ2EiLCJhIjoiY2lqbzk3aGVlMDB0bHRvbTVvN
       }
     },
     {
-      "type": "Feature",
+      type: 'Feature',
       "properties": {
         'marker-color': '#0080ff',
         'marker-size': 'medium',
@@ -350,14 +349,14 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGxlZ2EiLCJhIjoiY2lqbzk3aGVlMDB0bHRvbTVvN
       }
     },
     {
-      "type": "Feature",
+      type: 'Feature',
       "properties": {
         'marker-color': '#0080ff',
         'marker-size': 'medium',
         'marker-symbol': 'harbor'
       },
       "geometry": {
-        "type": "Point",
+        type: 'Point',
         "coordinates": [
           -73.25170755386353,
           40.64254944036133
@@ -365,14 +364,14 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGxlZ2EiLCJhIjoiY2lqbzk3aGVlMDB0bHRvbTVvN
       }
     },
     {
-      "type": "Feature",
+      type: 'Feature',
       "properties": {
         'marker-color': '#0080ff',
         'marker-size': 'medium',
         'marker-symbol': 'harbor'
       },
       "geometry": {
-        "type": "Point",
+        type: 'Point',
         "coordinates": [
           -73.25769424438477,
           40.642288930730686
@@ -380,14 +379,14 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGxlZ2EiLCJhIjoiY2lqbzk3aGVlMDB0bHRvbTVvN
       }
     },
     {
-      "type": "Feature",
+      type: 'Feature',
       "properties": {
         'marker-color': '#004040',
         'marker-size': 'medium',
         'marker-symbol': 'park2'
       },
       "geometry": {
-        "type": "Point",
+        type: 'Point',
         "coordinates": [
           -73.22992801666258,
           40.63124890076129
@@ -395,7 +394,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFwcGxlZ2EiLCJhIjoiY2lqbzk3aGVlMDB0bHRvbTVvN
       }
     },
     {
-      "type": "Feature",
+      type: 'Feature',
       "properties": {
         'marker-color': '#0080ff',
         'marker-size': 'medium',
