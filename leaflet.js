@@ -42,11 +42,11 @@ thousandthPolyline = L.polyline(thousandth, {color: "#d33682"}
                       ).addTo(firstMap);
 */
 
-let washingtonSquarePark, washingtonSquareParkMarker, bobstLibrary, bobstLibraryMarker;
-washingtonSquarePark = L.latLng(40.730833, -73.9975);
-washingtonSquareParkMarker = L.marker(washingtonSquarePark).bindPopup("This is Washington Square Park.").addTo(firstMap);
-bobstLibrary = L.latLng(40.729444, -73.997222);
-bobstLibraryMarker = L.marker(bobstLibrary).bindPopup("This is Bobst Library.").addTo(firstMap);
+let captreePark, captreeMarker, captree, CaptreeMarker;
+captreePark = L.latLng(40.6468, -73.2633);
+captreeMarker = L.marker(captreePark).bindPopup("Captree state park").addTo(firstMap);
+captree = L.latLng(40.729444, -73.997222);
+captreeMarker = L.marker(captree).bindPopup("This is Bobst Library.").addTo(firstMap);
 let circle;
 circle = L.circle(washingtonSquarePark, {radius: 100,
                                          color: "#859900",
